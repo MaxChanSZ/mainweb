@@ -1,5 +1,7 @@
+/* Header Elements */
 header {
-	background: #55d6aa
+	background: #012E4A;
+    opacity: 70%;
 }
 
 header::after {
@@ -8,6 +10,7 @@ header::after {
   clear: both;
 }
 
+/* Navigation Bar */
 nav {
 	float:right;
 }
@@ -16,6 +19,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+    padding-right: 12px;
 }
 
 nav li {
@@ -28,21 +32,21 @@ nav li {
 }
 
 nav a {
-	color: #444;
+	color: #E8EDE7;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 25px;
 }
 
 nav a:hover {
-	color: #000;
+	color: #81BECE;
 }
 
 nav a:before {
 	  content: '';
 	  display: block;
 	  height: 5px;
-	  background-color: #444;
+	  background-color: #E8EDE7;
 	
 	  position: absolute;
 	  top: 0;
@@ -52,20 +56,77 @@ nav a:before {
 }
 
 nav a:hover::before {
+    color: #81BECE;
 	width: 100%;
 }
 
 nav name {
      font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #363636;
+    color: #E8EDE7;
 	text-decoration-style: solid;
     text-transform: uppercase;
     font-weight: bold;
-	font-size: 35px;
+	font-size: 20px;
     position: relative;
     right: 650px;
 }
 
+/* Main Body Elements  */
+.main-body-wrapper {
+    background-color: #378BA4;
+    opacity: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-body-wrapper-alternate {
+    background-color: #E8EDE7;
+    opacity: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.main-body-image {
+    padding: 10px;
+}
+
+.main-body-text {
+    color:#E8EDE7;
+    padding: 10px;
+}
+
+.main-body-text-alternate{
+    color:#012E4A;
+    padding-top: 10px;
+    
+}
+
+.logo-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-body-header{
+    padding: 0%;
+    margin: 0%;
+}
+.main-body-subtext{
+    margin: 0%;
+}
+
+
+/* Experiences */
+.experience-main-body-subtext {
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+}
+
+
+/* Image track - delete as necessary */
 #image-track > .image {
     width: 80vmin;
     height: 65vmin;
