@@ -96,7 +96,8 @@ body {
 
     transition: opacity 800ms ease,
         background-size 800ms ease,
-        background-image 700ms ease ;
+        background-position 800ms ease,
+        background-image 700ms ease;
 }
 
 
@@ -115,11 +116,13 @@ body {
 }
 
 #menu[data-active-index="2"] > #menu-background-image {
+    background-position:center;
     background-size: 100vmax;
     background-image: url(../images/FDM\ Group.png);
 }
 
 #menu[data-active-index="3"] > #menu-background-image {
+    background-position: center 100%;
     background-size: 100vmax;
     background-image: url(../images/GitHub_Logo.png);
 }
