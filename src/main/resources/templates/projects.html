@@ -26,18 +26,19 @@
     </header>
     
     <div class="gallery">
-        <img src="../images/ProjectsGallery/CCYConverter.jpg">
+        <img src="../images/ProjectsGallery/CCYConverter.jpg" onclick='document.getElementById("galleryText").innerHTML = "todo:inserttexthereforCCYConverter"'>
         <img src="../images/ProjectsGallery/Assetspace rep.jpg">
         <img src="../images/ProjectsGallery/elevator rep.jpg">
         <img src="../images/ProjectsGallery/IMDB project rep.jpg">
         <img src="../images/ProjectsGallery/websites rep.jpg">
     </div>
-    <div class="textbox">
-        
+    <div class="gallery-wrapper">
+        <div class="gallery-textbox">
+            <!-- Gallerytext initialized as empty (? subject to change) -->
+            <p id="galleryText"> </p>
+        </div>
     </div>
-    <div class="gallery-textbox">
-        <!-- TODO: textbox. -->
-    </div>
+
 
 </body>
 <script src="../javascript/projects.js"></script>
